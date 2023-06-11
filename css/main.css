@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, sans-serif;
+    transition: background-color 0.5s;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #btn {
+    padding: 12px 24px;
+    background-color: #FF2626;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    animation: gradient 4s infinite;
+  }
+  #btn:hover {
+    animation-play-state: paused;
+  }
+  @keyframes gradient {
+    0% {
+      background-color: #FF2626;
+    }
+    25% {
+      background-color: #FF8C00;
+    }
+    50% {
+      background-color: #FABF00;
+    }
+    75% {
+      background-color: #6BB700;
+    }
+    100% {
+      background-color: #FF2626;
+    }
+  }
+  .github-corner{
+      position: fixed;
+      top:0px;
+      right:0px;
+  }
+  body .github-corner > svg {
+      fill: #151513;
+      color:#ffffff;
+    }
+  #darkModeButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    z-index: 9999;
+  }
+  #darkModeButton:hover {
+    background-color: #2563eb;
+  }
+        /* 深色模式样式 */
+  .dark-mode {
+    background-color: #1f2937;
+    color: #ffffff;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+  .dark-mode .github-corner > svg {
+    fill: #3b3b36;
+    color:#ffffff;
+  }

@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    font-family: Segoe UI, sans-serif;
+    background-color: #f2f2f2;
+    transition: background-color 0.5s;
+}
+
+.container {
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333333;
+    transition: color 0.5s;
+}
+
+h2{
+    color: #333333;
+    transition: color 0.5s;
+}
+
+p{
+    color: #333333;
+    transition: color 0.5s;
+}
+
+.result {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: color 0.5s;
+}
+
+.message {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #333333;
+    transition: color 0.5s;
+}
+
+.footer-link{
+    color:black;
+    text-decoration:none;
+    transition: color 0.5s;
+}
+
+.green {
+    background-color: #6BB700;
+    transition: background-color 0.5s;
+}
+
+.yellow {
+    background-color: #FABF00;
+    transition: background-color 0.5s;
+}
+
+.orange {
+    background-color: #FF8C00;
+    transition: background-color 0.5s;
+}
+
+.orange-yellow {
+    background-color: #FFAA00;
+    transition: background-color 0.5s;
+}
+
+.red {
+    background-color: #FF2626;
+    transition: background-color 0.5s;
+}
+
+.github-corner{
+    position: fixed;
+    top:0px;
+    right:0px;
+}
+body .github-corner > svg {
+    fill: #151513;
+    color:#ffffff;
+  }
+
+#darkModeButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    z-index: 9999;
+  }
+  #darkModeButton:hover {
+    background-color: #2563eb;
+  }
+        /* 深色模式样式 */
+  .dark-mode {
+    background-color: #1f2937;
+    color: #ffffff;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+  .dark-mode p{
+    color:#ffffff
+  }
+  .dark-mode h1{
+    color:#ffffff
+  }
+  .dark-mode h2{
+    color:#ffffff
+  }
+  .dark-mode .message{
+    color:#ffffff
+  }
+  .dark-mode .container{
+    background-color: #333333;
+  }
+  .dark-mode .footer-link{
+    color:#ffffff;
+    text-decoration:none;
+  }
+  .dark-mode .github-corner > svg {
+    fill: #3b3b36;
+    color:#ffffff;
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>今日人品</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF8">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <button id="darkModeButton" onclick="toggleDarkMode()">切换至深色模式</button>
+    <div class="container">
+        <h1>今日人品</h1>
+        <div class="result" id="result"></div>
+        <div class="message" id="message"></div>
+        <br/><hr/>
+        <h2>一言</h2>
+        <p id="hitokoto">
+            <a id="hitokoto_text">:D 获取中...</a>
+        </p>
+    </div>
+    <p>Powered By <a href="https://wujiyan.cc/" target="_blank" class="footer-link"><b>Wujiyan</b></a></p>
+    <script src="../js/script.js"></script>
+    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+    <script data-href="https://github.com/Wu-jiyan/jrrp-web/" data-target="_blank" src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+</html>
