@@ -5,7 +5,7 @@
 使用了js+localStore本地储存，每天会重新随机计算用户的人品值，并伴随日期一起储存
 在线体验[https://jrrp.wujiyan.cc/](https://jrrp.wujiyan.cc/)
 ## 调用API
-目前只在jrrp目录的index.html中调用了一言api[https://hitokoto.cn/](https://hitokoto.cn/)
+目前只在jrrp目录的index.html中调用了一言api([https://hitokoto.cn/](https://hitokoto.cn/))
 ## 目录结构
 ```
 │  favicon.ico
