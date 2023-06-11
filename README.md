@@ -26,7 +26,7 @@
         script.js
 ```
 ## 截图
-![main-light](./img/main-light.png)
-![main-dark](./img/main-dark.png)
-![jrrp-light](./img/jrrp-light.png)
-![jrrp-dark](./img/jrrp-dark.png)
+![main-light](https://ghproxy.com/https://raw.githubusercontent.com/Wu-jiyan/jrrp-web/main/img/main-light.png)
+![main-dark](https://ghproxy.com/https://raw.githubusercontent.com/Wu-jiyan/jrrp-web/main/img/main-dark.png)
+![jrrp-light](https://ghproxy.com/https://raw.githubusercontent.com/Wu-jiyan/jrrp-web/main/img/jrrp-light.png)
+![jrrp-dark](https://ghproxy.com/https://raw.githubusercontent.com/Wu-jiyan/jrrp-web/main/img/jrrp-dark.png)
